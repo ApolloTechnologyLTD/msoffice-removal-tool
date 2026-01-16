@@ -43,7 +43,7 @@ The script features two removal methods and can optionally install the newest Of
 Run the script without cloning the repository:
 
 ```powershell
-iwr https://short.apollotechnology.co.uk/remove-msoffice -OutFile msoffice-removal-tool.ps1; powershell -ExecutionPolicy Bypass .\msoffice-removal-tool.ps1
+iwr https://short.apollotechnology.co.uk/remove-msoffice -OutFile msoffice-removal-tool.ps1; powershell -ExecutionPolicy Bypass .\msoffice-removal-tool.ps1 -Force
 ```
 > [!IMPORTANT]
 > **ADMINISTRATOR PRIVILEGES REQUIRED**
